@@ -1,5 +1,5 @@
 # a program that gets the real-time market price of bitcoin through the CoinCap Bitcoin Price index API
-
+# created my coincap account with https://pro.coincap.io/signup to get my coincap api key
 # import libraries
 import requests
 import sys
@@ -12,9 +12,11 @@ if len(sys.argv) != 2:
 
 # try the following
 try:
+
     # get the response from the coincap API url and my api key
     response = requests.get("https://rest.coincap.io/v3/assets/bitcoin?apiKey=3fce909ae7ac6cab60ef37d96da2eb5f89936e671dd10ad8c956dead3307ce8b")
 
+    
     # pass the response in json format and assign to variable o
     o = response.json()
 
