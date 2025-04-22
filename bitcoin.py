@@ -30,9 +30,11 @@ try:
     # get the amount of the number of bitcoins entered
     amount = btc_price * number
 
-# if an input other than a datatype convertible to a float is entered i.e non-numeric e.g text
+# if a connection error occurs while calling the API
 except requests.RequestException:
+    # output the error message and exit the program
     sys.exit("an error occurred while making the request")
+# if an input other than a datatype convertible to a float is entered i.e non-numeric e.g text
 except ValueError:
     # output the error message and exit the program
     sys.exit("command-line argument is not a number")
