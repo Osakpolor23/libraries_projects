@@ -68,7 +68,7 @@ def main():
 
 # define the get_level() function
 def get_level():
-        # initiate an infinte loop that  asks for the level
+        # initiate an infinite loop that  asks for the level
         while True:
             try:
                 level = int(input("Level: "))

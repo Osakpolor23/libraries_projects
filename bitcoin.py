@@ -35,7 +35,7 @@ except ValueError:
     # output the error message and exit the program
     sys.exit("command-line argument is not a number")
 
-# print the bitcoin amount
+# print the bitcoin amount, separate every thousand with a comma, and output to 4dp
 print(f"${amount:,.4f}")
 
 
