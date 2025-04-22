@@ -31,6 +31,8 @@ try:
     amount = btc_price * number
 
 # if an input other than a datatype convertible to a float is entered i.e non-numeric e.g text
+except requests.RequestException:
+    sys.exit("an error occurred while making the request")
 except ValueError:
     # output the error message and exit the program
     sys.exit("command-line argument is not a number")
