@@ -1,3 +1,5 @@
+# for this project, I created a virtual environment know as figlet_env
+# to install the project dependencies such as the pyfiglet package
 # import the necessary libraries
 import pyfiglet
 import random
