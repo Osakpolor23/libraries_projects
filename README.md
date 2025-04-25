@@ -10,7 +10,7 @@ The following projects are included in this repository:
 
 **Description**
 
-bitcoin.py fetches the real-time market price of Bitcoin using the ***[CoinCap Bitcoin Price Index API] (https://pro.coincap.io/dashboard)***. It calculates the value of a user-specified number of bitcoins inputed on the command-line and handles invalid inputs gracefully.
+bitcoin.py fetches the real-time market price of Bitcoin using the ***[CoinCap Bitcoin Price Index API](https://pro.coincap.io/dashboard)***. It calculates the value of a user-specified number of bitcoins inputed on the command-line and handles invalid inputs gracefully.
 
 **Features**
 
@@ -32,7 +32,7 @@ bitcoin.py fetches the real-time market price of Bitcoin using the ***[CoinCap B
 
 **Description**
 
-professor.py is a math quiz game where players answer 10 randomly generated arithmetic problems. Players can choose their difficulty level, and the program provides detailed feedback for correct and incorrect answers. This is modeled after the 1970's ***[Little Professor] (https://www.youtube.com/watch?v=ZuJwzH9BIgs&embeds_referring_euri=https%3A%2F%2Fcs50.harvard.edu%2F&source_ve_path=Mjg2NjY)*** game, where a computer would ask random math questions and provide feedback.
+professor.py is a math quiz game where players answer 10 randomly generated arithmetic problems. Players can choose their difficulty level, and the program provides detailed feedback for correct and incorrect answers. This is modeled after the 1970's ***[Little Professor](https://www.youtube.com/watch?v=ZuJwzH9BIgs&embeds_referring_euri=https%3A%2F%2Fcs50.harvard.edu%2F&source_ve_path=Mjg2NjY)*** game, where a computer would ask random math questions and provide feedback.
 
 **Features**
 
@@ -89,7 +89,7 @@ game.py is a guessing game where users attempt to guess a randomly generated num
 
 **Description**
 
-adieu.py generates a farewell message for a list of names. Using the inflect library, it formats the names grammatically( with an ***[oxford comma] (https://en.wikipedia.org/wiki/Serial_comma)*** )into a well-structured sentence.
+adieu.py generates a farewell message for a list of names. Using the inflect library, it formats the names grammatically( with an ***[oxford comma](https://en.wikipedia.org/wiki/Serial_comma)*** )into a well-structured sentence.
 
 **Features**
 
