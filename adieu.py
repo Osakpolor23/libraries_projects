@@ -22,12 +22,15 @@ def get_name():
         try:
             # prompt the user for Names
             name = input("Name: ")
-            # append the name inputs to the empty list
-            my_list.append(name)
+            # append non-empty name inputs to the empty list
+            if name.strip():
+                my_list.append(name)
         # when the user inputs ctrl+D(i.e signals EOF),
         except EOFError:
-            # return formatted "Adieu" message to the names and break out of the loop
-            return f"Adieu, adieu, to {p.join(my_list)}"
+            # return formatted "Adieu" message to the names, or an error message if no names were provided
+            if not my_list:
+                return "No names were provided. Goodbye!"
+            return f"Adieu, adieu, to {p.join(my_list)}"  # the inflect library's join() method was used
 
 
 # call the main function when the file is run directly on the command-prompt
