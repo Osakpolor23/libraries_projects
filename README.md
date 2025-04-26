@@ -124,7 +124,8 @@ figlet.py converts user input text into ASCII art using the pyfiglet library. Us
 
     Handles invalid font names and invalid usage gracefully.
 
-**Sample Input:**   
+**Sample Input:** 
+
     $ python figlet.py
     Input: Hello
 
