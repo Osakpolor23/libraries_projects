@@ -77,7 +77,7 @@ game.py is a guessing game where users attempt to guess a randomly generated num
 
 **Sample Interactions:**
 
-    Level: 1
+    Level: 10
     Guess: 5
     Too small!
     Guess: 9
@@ -124,10 +124,11 @@ figlet.py converts user input text into ASCII art using the pyfiglet library. Us
 
     Handles invalid font names and invalid usage gracefully.
 
-Sample Input:
+**Sample Input:**   
     $ python figlet.py
     Input: Hello
-Expected Output:
+
+**Expected Output:**
 
     _   _      _ _
     | | | |    | | |
@@ -136,7 +137,21 @@ Expected Output:
     | | | |  __/ | | (_) |
     \_| |_/\___|_|_|\___/
 
+**Sample Input**
 
+    $ python figlet.py -f block
+    Input: Hello
+
+**Expected Output:**
+  
+                                            
+    _|                  _|  _|            
+    _|_|_|      _|_|    _|  _|    _|_|    
+    _|    _|  _|_|_|_|  _|  _|  _|    _|  
+    _|    _|  _|        _|  _|  _|    _|  
+    _|    _|    _|_|_|  _|  _|    _|_|    
+                                     
+ 
 ### **6. emojize.py**
 
 **Description**
